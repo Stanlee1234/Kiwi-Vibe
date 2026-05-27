@@ -1,0 +1,31 @@
+{
+  "name": "kiwi-vibe",
+  "version": "1.0.0",
+  "description": "A vibed-up AI coding assistant that lives in your terminal.",
+  "main": "index.js",
+  "bin": {
+    "kiwi": "./index.js",
+    "kiwi-vibe": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"No tests specified\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stanlee1234/Kiwi-Vibe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Stanlee1234/Kiwi-Vibe/issues"
+  },
+  "homepage": "https://github.com/Stanlee1234/Kiwi-Vibe#readme",
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "dotenv": "^17.4.2",
+    "oh-my-logo": "^0.5.0"
+  }
+}
