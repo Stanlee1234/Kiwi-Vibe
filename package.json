@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"No tests specified\""
+    "test": "node --test"
   },
   "repository": {
     "type": "git",
